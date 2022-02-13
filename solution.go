@@ -3,6 +3,6 @@ package solution
 import "github.com/kyokomi/emoji"
 
 func GetMessage() string {
-	var message = "Hello 🗺️!"
+	var message = "Hello 🗺️ !"
 	return emoji.Sprint(message)
 }
